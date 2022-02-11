@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #jisu>p:nth-child(2){
+            color : green;
+        }
+        #jisu>p:nth-of-type(3){
+            color : greenyellow;
+        }
+        span#myspan {
+            color : red;
+        }
+        h1, span, div {
+            color : blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span id = "myspan">my text is upper!</span>
+        <ul>
+            <li>
+                <div id = "jisu">
+                    <h2>단락 선택</h2>
+                    <p>첫번째 단락입니다</p>
+                    <p>두번째 단락입니다</p>
+                    <p>세번째 단락입니다</p>
+                    <p>네번째 단락입니다</p>
+                </div>
+
+                <span id = "myspan">my text is dummy</span>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

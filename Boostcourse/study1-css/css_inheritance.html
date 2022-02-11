@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 배치와 관련된 속성은 상속을 받지 않는다. -->
+    <style>
+        body > div{
+            color : green;
+            font-size : 30px;
+            border : 2px solid slategray;
+            padding : 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>my text is upper!</span>
+        <ul>
+            <li>
+                <span>my text is dummy</span>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

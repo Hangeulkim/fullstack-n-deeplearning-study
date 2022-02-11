@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            width:100px;
+            height:100px;
+            border:1px solid red;
+            padding: 20px;
+            font-size:0.8em;
+        }
+        .box-content{
+            1box-sizing:content-box;
+        }
+        .box-border{
+            box-sizing:border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-content">box-content</div>(100px보다커짐)
+    <div class="box-border">box-border</div>(100px유지)
+</body>
+
+</html>
