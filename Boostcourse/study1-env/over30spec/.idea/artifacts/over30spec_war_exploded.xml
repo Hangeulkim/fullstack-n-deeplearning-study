@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="over30spec:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/over30spec_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="over30spec/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="over30spec" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

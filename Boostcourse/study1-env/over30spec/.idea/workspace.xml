@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="HelloWorldTom:war exploded" />
+      <artifact name="over30spec:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fff30fa1-1387-4267-bed6-300fe3a1f4c0" name="Changes" comment="" />
+    <list default="true" id="849130d5-7315-40e9-96df-28979955c952" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +14,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -25,7 +33,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="256OPbv3G7SazAjJlEAG0t5XvpP" />
+  <component name="ProjectId" id="25EWdAorZDDWC3FciNkRkSsb2Kf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,14 +48,14 @@
     <configuration name="Tomcat 8.5.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.75" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="HelloWorldTom:war exploded">
+        <artifact name="over30spec:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/HelloWorldTom_war_exploded" />
+            <option name="CONTEXT_PATH" value="/over30spec_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="b5d8ce6d-0298-4e8b-b1ab-01258ce89b25" />
+        <option name="BASE_DIRECTORY_NAME" value="7b7a2c13-d6fe-43de-b5c7-31b178f1e9d7" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -55,7 +63,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="1735" />
+        <option name="DEBUG_PORT" value="6617" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -120,7 +128,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="HelloWorldTom:war exploded" />
+          <artifact name="over30spec:war exploded" />
         </option>
       </method>
     </configuration>
@@ -128,13 +136,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fff30fa1-1387-4267-bed6-300fe3a1f4c0" name="Changes" comment="" />
-      <created>1644844046631</created>
+      <changelist id="849130d5-7315-40e9-96df-28979955c952" name="Changes" comment="" />
+      <created>1645092812492</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1644844046631</updated>
-      <workItem from="1644844047745" duration="309000" />
-      <workItem from="1645092306317" duration="10000" />
+      <updated>1645092812492</updated>
+      <workItem from="1645092813942" duration="535000" />
     </task>
     <servers />
   </component>
