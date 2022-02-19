@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="servlet-lifec_cycle1:war exploded" />
+      <artifact name="infoshow:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44de5874-0568-4225-b96c-f0a220967d21" name="Changes" comment="" />
+    <list default="true" id="8f83a749-2cd0-4ae5-84ec-6128dfab89d9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +25,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="25EbLAujX5GJmVpid8xQH2vopQ0" />
+  <component name="ProjectId" id="25KRdPZwDlUg5djG2BgtOCjQc1n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,14 +40,14 @@
     <configuration name="Tomcat 8.5.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.75" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="servlet-lifec_cycle1:war exploded">
+        <artifact name="infoshow:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/servlet_lifec_cycle1_war_exploded" />
+            <option name="CONTEXT_PATH" value="/infoshow_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="cd8d7480-f2b9-4bfb-a19f-716c078b2fe8" />
+        <option name="BASE_DIRECTORY_NAME" value="0d01fa49-87c9-4ae2-9828-ae1c58cdfd2a" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -55,7 +55,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="7207" />
+        <option name="DEBUG_PORT" value="9941" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -120,7 +120,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="servlet-lifec_cycle1:war exploded" />
+          <artifact name="infoshow:war exploded" />
         </option>
       </method>
     </configuration>
@@ -128,13 +128,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="44de5874-0568-4225-b96c-f0a220967d21" name="Changes" comment="" />
-      <created>1645095135092</created>
+      <changelist id="8f83a749-2cd0-4ae5-84ec-6128dfab89d9" name="Changes" comment="" />
+      <created>1645273877809</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645095135092</updated>
-      <workItem from="1645095136301" duration="1095000" />
-      <workItem from="1645273125525" duration="6000" />
+      <updated>1645273877809</updated>
+      <workItem from="1645273878902" duration="306000" />
     </task>
     <servers />
   </component>
