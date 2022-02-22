@@ -17,7 +17,7 @@ public class TodayServlet extends HttpServlet {
         out.println("<head><title>now_time</title></head>");
         out.println("<body>");
 
-        out.println("<a href=\"index.jsp\">메인화면<a>");
+        out.println("<a href=\"index.html\">메인화면<a>");
 
         out.println("<div style=\"text-align:center; padding-top: 30%;\">");
         LocalDateTime now = LocalDateTime.now();

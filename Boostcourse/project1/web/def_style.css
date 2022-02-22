@@ -1,0 +1,30 @@
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(50, 128, 102);
+}
+
+header{
+    height: 50px;
+    background-color: white;
+}
+
+footer{
+    height: 50px;
+    background-color: white;
+}
+
+.foot{
+    color: rgb(25, 78, 60);
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 10%;
+    background-color: white;
+}
