@@ -1,0 +1,16 @@
+.index_sq{
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 4px rgb(112, 109, 109);
+    margin-right: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(143, 186, 200);
+    display: inline-block;
+    color: white;
+}
