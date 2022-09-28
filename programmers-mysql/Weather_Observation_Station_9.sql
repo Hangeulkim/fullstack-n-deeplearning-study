@@ -1,0 +1,3 @@
+SELECT distinct CITY
+FROM STATION
+WHERE CITY not REGEXP ('^A|^E|^I|^O|^U');
