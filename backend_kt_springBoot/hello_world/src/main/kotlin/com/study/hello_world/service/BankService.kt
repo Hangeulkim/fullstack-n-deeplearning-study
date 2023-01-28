@@ -1,0 +1,12 @@
+package com.study.hello_world.service
+
+import com.study.hello_world.datasource.BankDataSource
+import com.study.hello_world.model.Bank
+import org.springframework.stereotype.Service
+
+@Service
+class BankService(private val dataSource: BankDataSource) {
+	fun getBanks(): Collection<Bank> {
+		return dataSource.retrieveBanks()
+	}
+}
