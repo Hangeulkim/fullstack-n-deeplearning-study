@@ -5,4 +5,6 @@ import com.study.hello_world.model.Bank
 interface BankDataSource {
 
 	fun retrieveBanks(): Collection<Bank>
+
+	fun retrieveBank(accountNumber: String): Bank
 }
